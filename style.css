@@ -1,0 +1,35 @@
+html {
+    font-size: 62.5%;
+}
+
+
+
+div.n1 {
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    transition-property: background-color, width, height;
+    transition-duration: 6s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-in-out;
+    max-width: 100%;
+}
+
+div.n1:hover {
+    background-color: lightgray;
+    width: 30rem;
+    height: 30rem;
+}
+
+div.n2 {
+    margin: auto;
+    width: 20rem;
+    height: 20rem;
+    transition: color, font-size, 3s, 200ms;
+}
+
+div.n2:hover {
+    color: gray;
+    font-size: 1.2rem;
+}
